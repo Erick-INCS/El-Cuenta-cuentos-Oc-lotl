@@ -2,8 +2,8 @@
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
-image alj surprise = im.FactorScale("alj/surprise.png", 0.2)
-image bg altar = im.FactorScale("bg altar.jpg", 0.5)
+image alj surprise = im.FactorScale("alejandro/sorpresa.png", 0.2)
+image bg altar = im.FactorScale("bg altarfull.jpg", 0.5)
 define alj = Character("Alejandro")
 define n = Character("Narrador")
 
