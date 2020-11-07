@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 5: invalid syntax
-    im.FactorScale(""alj/surprise.png"", 0.4)
-                        ^
+File "game/script.rpy", line 54: end of line expected.
+    al " YO NO PUEDO PRONUNCIAR ESTO ABUELA"- 
+                                            ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Fri Nov  6 23:31:01 2020
+Sat Nov  7 02:20:31 2020
