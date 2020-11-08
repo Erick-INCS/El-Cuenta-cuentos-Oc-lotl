@@ -1,39 +1,38 @@
-Sat Nov  7 18:57:33 2020
+Sat Nov  7 22:11:42 2020
 Linux-5.8.0-26-generic-x86_64-with-debian-bullseye-sid
 Ren'Py 7.3.5.606
  
 
-Bootstrap to the start of init.init took 0.09s
+Bootstrap to the start of init.init took 0.08s
 Early init took 0.00s
 Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.18s
+Loading error handling took 0.03s
+Loading script took 0.10s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.06s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.01s
 Index archives took 0.00s
-Backing up script files to '/home/incspn/.renpy/backups/El Cuenta cuentos Ocelotl':
-Dump and make backups. took 0.06s
+Dump and make backups. took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.02s
+Initial gc. took 0.03s
 DPI scale factor: 1.000000
-Creating interface object took 0.08s
+Creating interface object took 0.09s
 Cleaning stores took 0.00s
-Init translation took 0.04s
+Init translation took 0.05s
 Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.06s
-Prepare screens took 0.08s
+Load screen analysis took 0.10s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.10s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.05s
+Save bytecode. took 0.06s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.03s
+Interface start took 0.04s
 
 primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
@@ -363,7 +362,7 @@ Texture testing:
 - 2048px textures work.
 Root FBO is: 0
 FBO Maximum Texture Size: 2048
-Total time until interface ready: 1.04609513283s
+Total time until interface ready: 1.14161515236s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
 
@@ -373,8 +372,15 @@ Windowed mode.
 Screen sizes: virtual=(1280, 720) physical=(1366, 731) drawable=(1366, 731)
 Root FBO is: 0
 FBO Maximum Texture Size: 2048
-- Frame drawn at 0.009229 seconds.
-- Frame drawn at 0.014976 seconds.
-- Frame drawn at 0.031601 seconds.
-- Frame drawn at 0.049112 seconds.
-- 0.049112 seconds to render 5 frames.
+- Frame drawn at 0.009450 seconds.
+- Frame drawn at 0.011765 seconds.
+- Frame drawn at 0.016646 seconds.
+- Frame drawn at 0.034447 seconds.
+- 0.034447 seconds to render 5 frames.
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
