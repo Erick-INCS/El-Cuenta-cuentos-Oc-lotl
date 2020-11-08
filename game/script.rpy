@@ -1,4 +1,4 @@
-# The script of the game goes in this file.
+﻿# The script of the game goes in this file.
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
@@ -47,6 +47,7 @@ label start:
 
     #     "And so, we become a visual novel creating duo."
 
+
     n "Marina y su nieto Alejandro como cada año se disponían a colocar la ofrenda para el día de muertos,al ver que su pequeño nieto se distraía y terminaba jugando con las flores le dijo:"
 
 
@@ -54,8 +55,8 @@ label start:
 
     n 'Alejandro sin comprender,pregunto con una voz dudosa'
 
-    voice '"al1.ogg"'
-    al'"¿por qué es necesario esparcir flores en el suelo? y ¿dónde están los muertos abuela?"'
+    play sound "audio/al1.mp3"
+    al "¿por qué es necesario esparcir flores en el suelo? y ¿dónde están los muertos abuela?"
 
     n "Marina dejo las flores y sentó a su nieto en su regazo:"
 
@@ -63,7 +64,7 @@ label start:
 
     n "Alejandro exclamo"
 
-    voice '"al2.ogg"'
+    play sound "audio/al2.mp3"
     al "Eso es mucho tiempo abuela"
 
     n "La abuela sólo sonrió y prosiguió"
@@ -82,7 +83,7 @@ label start:
 
     ab "El primer nivel,es conocido como el Lugar donde los Xoloitzcuintles habitan y esperan a las almas, y son ellos quienes ayudan a cruzar un caudaloso rio que deberán cruzar con su ayuda, son perro de color pardusco y con poco pelaje, es por eso que en esta vida tienes que ser una buena persona con los perros. Exclamo la abuela a su nieto"
 
-    voice '"al3.ogg"'
+    play sound "audio/al3.mp3"
     al "-Si abuela, eso siempre me lo has dicho -respondió Alejandro con voz firme."
 
     ab 'La abuela continua- "el lugar donde los cerros de juntan", es el segundo nivel, aquí existen dos grandes cerros que se abren y se cierran sin previo aviso, aqui es donde las almas deberán esperar el momento oportuno para cruzar, la paciencia es una virtud Alejandro –le dijo la abuela mirando a su nieto'
@@ -95,10 +96,11 @@ label start:
 
     ab 'En el quinto nivel"El lugar donde la gente vuela y se voltea como banderas". Se dice que este lugar se ubicaba al pie de una colina del Itzehecayan, donde los muertos perdían la gravedad y estaban a merced de los vientos, que los arrastraba hasta que finalmente eran liberados para pasar al nivel siguiente.'
 
-    voice '"al4.ogg"'
+    play sound "audio/al4.mp3"
     al "Alejandro interrumpe, -¡espera abuela!"
 
-    voice '"al5.ogg"'
+
+    play sound "audio/al5.mp3"
     al "¿qué pasa si mueren en una de esas pruebas?"
 
     ab "Marina con una sonrisa en el rostro respondió, -las almas no pueden morir en el más allá, sentirán ese sufrimiento como si estuvieran con vida en esta vida terrenal, pero no morirán."
@@ -109,7 +111,7 @@ label start:
 
     ab 'Una vez salido de ahí, las almas se dirigen a "TEOCOYOHUEHUALOYAN" es donde...'
 
-    voice '"al6.ogg"'
+    play sound "audio/al6.mp3"
     al "¡es muy gracioso ese nombre, abuela! interrumpe Alejandro sin pensarlo dos veces."
 
     ab "Bueno esos dices por que no sabes que aquí es donde los jaguares les abren el pecho a las almas y se comen su corazón"
@@ -124,7 +126,7 @@ label start:
 
     n "Alejandro reconocio esos nombres diciendo"
 
-    voice '"al7.ogg"'
+    play sound "audio/al7.mp3"
     al "Son las deidades que mencionaste al principio, ¿no es verdad abuela?"
 
     n "con voz amable Marina respondió"
