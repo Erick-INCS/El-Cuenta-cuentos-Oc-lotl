@@ -1,22 +1,81 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/script.rpy", line 42, in script
-    m "It's like an interactive book that you can read on a computer or a console."
-Exception: Sayer 'm' is not defined.
+After initialization, but before game start.
+  File "game/screens.rpy", line 722, in prepare_screen
+    screen preferences():
+  File "game/screens.rpy", line 722, in prepare
+    screen preferences():
+  File "game/screens.rpy", line 726, in prepare
+    use game_menu(_("Opciones"), scroll="viewport"):
+  File "game/screens.rpy", line 726, in prepare
+    use game_menu(_("Opciones"), scroll="viewport"):
+  File "game/screens.rpy", line 728, in prepare
+    vbox:
+  File "game/screens.rpy", line 728, in prepare
+    vbox:
+  File "game/screens.rpy", line 730, in prepare
+    hbox:
+  File "game/screens.rpy", line 730, in prepare
+    hbox:
+  File "game/screens.rpy", line 755, in prepare
+    vbox:
+  File "game/screens.rpy", line 755, in prepare
+    vbox:
+  File "game/screens.rpy", line 758, in prepare
+    textbutton _("Silencia todo"):
+  File "game/screens.rpy", line 758, in prepare
+    textbutton _("Silencia todo"):
+  File "renpy/common/00preferences.rpy", line 501, in Preference
+    rv = get()
+  File "renpy/common/00preferences.rpy", line 499, in get
+    raise Exception("Preference(%r, %r) is unknown." % (name , value))
+Exception: Preference(u'lang', u'0') is unknown.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 42, in script
-    m "It's like an interactive book that you can read on a computer or a console."
-  File "/home/incspn/Downloads/renpy-7.3.5-sdk/renpy/ast.py", line 678, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "/home/incspn/Downloads/renpy-7.3.5-sdk/renpy/ast.py", line 576, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
-Exception: Sayer 'm' is not defined.
+  File "/home/incspn/Downloads/renpy-7.3.5-sdk/renpy/bootstrap.py", line 316, in bootstrap
+    renpy.main.main()
+  File "/home/incspn/Downloads/renpy-7.3.5-sdk/renpy/main.py", line 578, in main
+    run(restart)
+  File "/home/incspn/Downloads/renpy-7.3.5-sdk/renpy/main.py", line 94, in run
+    renpy.display.screen.prepare_screens()
+  File "/home/incspn/Downloads/renpy-7.3.5-sdk/renpy/display/screen.py", line 931, in prepare_screens
+    s.ast.prepare_screen()
+  File "game/screens.rpy", line 722, in prepare_screen
+    screen preferences():
+  File "game/screens.rpy", line 722, in prepare
+    screen preferences():
+  File "game/screens.rpy", line 726, in prepare
+    use game_menu(_("Opciones"), scroll="viewport"):
+  File "game/screens.rpy", line 726, in prepare
+    use game_menu(_("Opciones"), scroll="viewport"):
+  File "game/screens.rpy", line 728, in prepare
+    vbox:
+  File "game/screens.rpy", line 728, in prepare
+    vbox:
+  File "game/screens.rpy", line 730, in prepare
+    hbox:
+  File "game/screens.rpy", line 730, in prepare
+    hbox:
+  File "game/screens.rpy", line 755, in prepare
+    vbox:
+  File "game/screens.rpy", line 755, in prepare
+    vbox:
+  File "game/screens.rpy", line 758, in prepare
+    textbutton _("Silencia todo"):
+  File "game/screens.rpy", line 758, in prepare
+    textbutton _("Silencia todo"):
+  File "/home/incspn/Downloads/renpy-7.3.5-sdk/renpy/python.py", line 2052, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<screen language>", line 759, in <module>
+  File "renpy/common/00preferences.rpy", line 501, in Preference
+    rv = get()
+  File "renpy/common/00preferences.rpy", line 499, in get
+    raise Exception("Preference(%r, %r) is unknown." % (name , value))
+Exception: Preference(u'lang', u'0') is unknown.
 
 Linux-5.8.0-26-generic-x86_64-with-debian-bullseye-sid
 Ren'Py 7.3.5.606
 El Cuenta Cuentos Ocelotl2 1.0
-Sat Nov  7 16:44:43 2020
+Sat Nov  7 18:26:48 2020

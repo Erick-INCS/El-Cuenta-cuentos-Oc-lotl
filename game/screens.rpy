@@ -752,6 +752,7 @@ screen preferences():
                     textbutton _("Tras opciones") action Preference("after choices", "toggle")
                     textbutton _("Transiciones") action InvertSelected(Preference("transitions", "toggle"))
 
+                
                 ## Aquí se pueden añadir 'vboxes' adicionales del tipo
                 ## "radio_pref" o "check_pref" para nuevas preferencias.
 
